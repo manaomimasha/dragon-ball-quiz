@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.quiz-container,
+.result-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background: #585858;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result-image {
+  border-radius: 8px;
+}
+
+.btn-restart {
+  margin-top: 20px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 3rem 1rem;
+}
